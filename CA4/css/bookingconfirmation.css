@@ -1,0 +1,114 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #b09e3f;
+    color: white;
+    font-weight: bold;
+}
+
+table td {
+    background-color: #f9f9f9;
+    font-size: 1.1rem;
+}
+
+table tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Confirmation Message */
+.confirmation-message {
+    background-color: #28a745;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.confirmation-message h3 {
+    margin: 0;
+}
+
+.confirmation-message p {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.button-container {
+    text-align: center;
+}
+
+button {
+    background-color: #b09e3f;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #466def;
+}
+
+footer {
+    text-align: center;
+    color: #777;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
